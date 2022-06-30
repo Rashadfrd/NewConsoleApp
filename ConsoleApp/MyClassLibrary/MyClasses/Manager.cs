@@ -19,12 +19,13 @@ namespace MyClassLibrary.MyClasses
 
         public void ChangeToDoItemStatus(int no, ToDoItemStatus status)
         {
-            throw new NotImplementedException();
+            int index = ToDoItems.FindIndex(x => x.No == no);
+            ToDoItems[index].Status = status;
         }
 
         public void DeleteToDoItem(int no)
         {
-            int index = _toDoItems.FindIndex(x=> x._no == no);
+            int index = _toDoItems.FindIndex(x=> x.No == no);
             _toDoItems.RemoveAt(index);
         }
 
@@ -35,7 +36,8 @@ namespace MyClassLibrary.MyClasses
 
         public List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate)
         {
-            throw new NotImplementedException();
+            List<ToDoItem> toDoItems = ToDoItems.FindAll(x => x.Status == status && x.Deadline > fromDate && x.Deadline > toDate);
+            return toDoItems;
         }
 
         public void GetAllDelayedTasks()
@@ -47,13 +49,14 @@ namespace MyClassLibrary.MyClasses
         {
             foreach (var item in ToDoItems)
             {
-                Console.WriteLine($"{item._no} - {item.Title} - {item.Description} - {item.Deadline} - {item.Status} - {item.StatusChangedAt}");
+                Console.WriteLine($"{item.No} - {item.Title} - {item.Description} - {item.Deadline} - {item.Status} - {item.StatusChangedAt}");
             }
         }
 
-        public ToDoItemStatus GetAllToDoItemsByStatus(ToDoItemStatus status)
+        public List<ToDoItem> GetAllToDoItemsByStatus(ToDoItemStatus status)
         {
-            throw new NotImplementedException();
+            List<ToDoItem> toDoItems = ToDoItems.FindAll(x => x.Status == status);
+            return toDoItems;
         }
 
         public List<ToDoItem> SearchToDoItems(string input)
