@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyClassLibrary.MyClasses;
+using System;
 
 namespace MyConsoleApp
 {
@@ -6,7 +7,10 @@ namespace MyConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Manager manager = new Manager();
+
+
+
         }
     }
 }

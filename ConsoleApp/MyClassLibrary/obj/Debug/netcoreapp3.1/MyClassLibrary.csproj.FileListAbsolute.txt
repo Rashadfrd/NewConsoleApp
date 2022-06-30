@@ -1,0 +1,10 @@
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\bin\Debug\netcoreapp3.1\MyClassLibrary.deps.json
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\bin\Debug\netcoreapp3.1\MyClassLibrary.dll
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\bin\Debug\netcoreapp3.1\MyClassLibrary.pdb
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.csproj.AssemblyReference.cache
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.AssemblyInfoInputs.cache
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.AssemblyInfo.cs
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.dll
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.pdb

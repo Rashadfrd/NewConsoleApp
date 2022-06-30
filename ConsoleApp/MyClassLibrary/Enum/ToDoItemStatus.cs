@@ -6,6 +6,7 @@ namespace MyClassLibrary.Enum
 {
     public enum ToDoItemStatus
     {
+
         ToDo,
         Doing,
         Done

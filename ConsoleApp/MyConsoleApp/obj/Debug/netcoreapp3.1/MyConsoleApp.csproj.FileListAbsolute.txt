@@ -1,0 +1,17 @@
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyConsoleApp.exe
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyConsoleApp.deps.json
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyConsoleApp.runtimeconfig.json
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyConsoleApp.runtimeconfig.dev.json
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyConsoleApp.dll
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyConsoleApp.pdb
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyClassLibrary.dll
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\bin\Debug\netcoreapp3.1\MyClassLibrary.pdb
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.csproj.AssemblyReference.cache
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.AssemblyInfoInputs.cache
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.AssemblyInfo.cs
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.csproj.CopyComplete
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.dll
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.pdb
+C:\Users\ferha\Desktop\Code\NewConsoleApp\ConsoleApp\MyConsoleApp\obj\Debug\netcoreapp3.1\MyConsoleApp.genruntimeconfig.cache
