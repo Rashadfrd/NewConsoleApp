@@ -14,6 +14,7 @@ namespace MyClassLibrary.MyClasses
 
         public static int _totalCount { get; set; }
         public int _no { get; }
+        public ToDoItem Status;
         public string Title;
         public string Description;
         public DateTime Deadline;
