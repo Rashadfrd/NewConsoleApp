@@ -14,6 +14,11 @@ namespace MyClassLibrary.Interfaces
         void GetAllDelayedTasks();
         void ChangeToDoItemStatus(int no, ToDoItemStatus status);
         void EditToDoItem(int no, string title, string description, DateTime deadline);
+        void DeleteToDoItem(int no);
+        ToDoItemStatus GetAllToDoItemsByStatus(ToDoItemStatus status);
+        List<ToDoItem> SearchToDoItems(string input);
+        List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate);
+
 
 
     }
