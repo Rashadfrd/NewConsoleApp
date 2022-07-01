@@ -56,7 +56,7 @@ namespace MyConsoleApp
                         }
                         break; 
                     case "5":
-                        List<ToDoItem> toDoItems2 = manager.FIlterToDoItems(GetStatus(), GetFromDate(), GetToDate());
+                        List<ToDoItem> toDoItems2 = manager.FIlterToDoItems(GetFromDate(), GetToDate());
                         foreach (var item in toDoItems2)
                         {
                             Console.WriteLine($"{item.No} - {item.Title} - {item.Description} - {item.Deadline} - {item.Status}");
@@ -243,7 +243,7 @@ namespace MyConsoleApp
             do
             {
                 fromDateStr = Console.ReadLine();
-            } while (DateTime.TryParse(fromDateStr, out fromDate));
+            } while (!DateTime.TryParse(fromDateStr, out fromDate));
             return fromDate;
         }
 

@@ -17,7 +17,7 @@ namespace MyClassLibrary.Interfaces
         void DeleteToDoItem(int no);
         List<ToDoItem> GetAllToDoItemsByStatus(ToDoItemStatus status);
         List<ToDoItem> SearchToDoItems(string input);
-        List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate);
+        List<ToDoItem> FIlterToDoItems(DateTime fromDate, DateTime toDate);
 
 
 

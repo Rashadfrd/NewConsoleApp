@@ -48,9 +48,9 @@ namespace MyClassLibrary.MyClasses
             Console.WriteLine("Deyisiklikler ugurla heyata kecirildi");
         }
 
-        public List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate)
-        {
-            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Status == status && x.Deadline.Date > fromDate && x.Deadline.Date > toDate);
+        public List<ToDoItem> FIlterToDoItems(DateTime fromDate, DateTime toDate)
+        { 
+            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Deadline > fromDate && x.Deadline < toDate);
             return toDoItems;
         }
 

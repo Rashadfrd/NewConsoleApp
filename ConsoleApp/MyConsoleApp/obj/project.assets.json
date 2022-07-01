@@ -27,28 +27,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RASHADNF\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\ferha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RASHADNF\\Desktop\\silemmirem\\NewConsoleApp\\ConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\ferha\\Desktop\\Code\\NewConsoleApp\\ConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
       "projectName": "MyConsoleApp",
-      "projectPath": "C:\\Users\\RASHADNF\\Desktop\\silemmirem\\NewConsoleApp\\ConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\RASHADNF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RASHADNF\\Desktop\\silemmirem\\NewConsoleApp\\ConsoleApp\\MyConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\ferha\\Desktop\\Code\\NewConsoleApp\\ConsoleApp\\MyConsoleApp\\MyConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\ferha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ferha\\Desktop\\Code\\NewConsoleApp\\ConsoleApp\\MyConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\RASHADNF\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ferha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -61,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\RASHADNF\\Desktop\\silemmirem\\NewConsoleApp\\ConsoleApp\\MyClassLibrary\\MyClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\RASHADNF\\Desktop\\silemmirem\\NewConsoleApp\\ConsoleApp\\MyClassLibrary\\MyClassLibrary.csproj"
+            "C:\\Users\\ferha\\Desktop\\Code\\NewConsoleApp\\ConsoleApp\\MyClassLibrary\\MyClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\ferha\\Desktop\\Code\\NewConsoleApp\\ConsoleApp\\MyClassLibrary\\MyClassLibrary.csproj"
             }
           }
         }
