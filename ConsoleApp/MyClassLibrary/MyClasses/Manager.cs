@@ -56,7 +56,7 @@ namespace MyClassLibrary.MyClasses
 
         public List<ToDoItem> GetAllDelayedTasks()
         {
-            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Deadline.Date! > DateTime.Now && x.Status != ToDoItemStatus.Done);
+            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Deadline < DateTime.Now && x.Status != ToDoItemStatus.Done);
             return toDoItems;
         }
 

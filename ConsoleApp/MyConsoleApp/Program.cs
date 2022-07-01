@@ -90,9 +90,19 @@ namespace MyConsoleApp
         static ToDoItem CreateTask()
         {
             Console.WriteLine("1.Tapsirigin basligini daxil edin:");
-            string title = Console.ReadLine();
+            string title;
+            do
+            {
+                title = Console.ReadLine();
+            } while (string.IsNullOrWhiteSpace(title));
+
             Console.WriteLine("2.Tapsirigin aciqlamasini daxil edin:");
-            string description = Console.ReadLine();
+            string description;
+            do
+            {
+                description = Console.ReadLine();
+            } while (string.IsNullOrWhiteSpace(description));
+
         DeadlineCreating:
             Console.WriteLine("3.Tapsirigin bitmeli oldugu vaxti daxil edin:");
             

@@ -25,7 +25,7 @@ namespace MyClassLibrary.MyClasses
 
         public static DateTime CheckDeadline(DateTime deadline)
         {
-            if (deadline.Date < DateTime.Now)
+            if (deadline < DateTime.Now)
             {
                 throw new DateTimeIsWrongException("Deadline yalniz gelecek zaman olmalidir!");
             }
