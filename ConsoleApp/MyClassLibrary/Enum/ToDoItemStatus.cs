@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyClassLibrary.Enum
 {
-    public enum ToDoItemStatus
+    public enum ToDoItemStatus:byte
     {
         ToDo,
         Doing,

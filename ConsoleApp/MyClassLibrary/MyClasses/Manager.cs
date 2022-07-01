@@ -1,4 +1,5 @@
 ﻿using MyClassLibrary.Enum;
+using MyClassLibrary.Exceptions;
 using MyClassLibrary.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -22,12 +23,14 @@ namespace MyClassLibrary.MyClasses
             int index = _toDoItems.FindIndex(x => x.No == no);
             _toDoItems[index].Status = status;
             _toDoItems[index].StatusChangedAt = DateTime.Now;
+            Console.WriteLine("Status ugurla deyisdirildi!");
         }
 
         public void DeleteToDoItem(int no)
         {
             int index = _toDoItems.FindIndex(x=> x.No == no);
             _toDoItems.RemoveAt(index);
+            Console.WriteLine("Ugurla silindi!");
         }
 
         public void EditToDoItem(int no, string title, string description, DateTime? deadline)
@@ -42,7 +45,7 @@ namespace MyClassLibrary.MyClasses
 
             if (deadline != null)
                 ToDoItems[index].Deadline = (DateTime)deadline;
-
+            Console.WriteLine("Deyisiklikler ugurla heyata kecirildi");
         }
 
         public List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate)
@@ -73,5 +76,23 @@ namespace MyClassLibrary.MyClasses
             List<ToDoItem> newToDoItems = _toDoItems.FindAll(x => x.Title.Contains(input));
             return newToDoItems;
         }
+
+        bool check = false;
+        public int IsNumberExist(int no)
+        {
+            foreach (var item in _toDoItems)
+            {
+                if (item.No == no)
+                {
+                    check = true;
+                    break;
+                }
+            }
+            if (check == true)
+                return no;
+            else
+                throw new NumberIsWrongException("Bu nomrede tapsiriq yoxdur");
+        }
+
     }
 }
