@@ -19,8 +19,9 @@ namespace MyClassLibrary.MyClasses
 
         public void ChangeToDoItemStatus(int no, ToDoItemStatus status)
         {
-            int index = ToDoItems.FindIndex(x => x.No == no);
-            ToDoItems[index].Status = status;
+            int index = _toDoItems.FindIndex(x => x.No == no);
+            _toDoItems[index].Status = status;
+            _toDoItems[index].StatusChangedAt = DateTime.Now;
         }
 
         public void DeleteToDoItem(int no)
@@ -31,7 +32,7 @@ namespace MyClassLibrary.MyClasses
 
         public void EditToDoItem(int no, string title, string description, DateTime? deadline)
         {
-            int index = ToDoItems.FindIndex(x => x.No == no);
+            int index = _toDoItems.FindIndex(x => x.No == no);
 
             if (title!=null)
                 ToDoItems[index].Title = title;
@@ -46,26 +47,24 @@ namespace MyClassLibrary.MyClasses
 
         public List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate)
         {
-            List<ToDoItem> toDoItems = ToDoItems.FindAll(x => x.Status == status && x.Deadline > fromDate && x.Deadline > toDate);
+            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Status == status && x.Deadline.Date > fromDate && x.Deadline.Date > toDate);
             return toDoItems;
         }
 
-        public void GetAllDelayedTasks()
+        public List<ToDoItem> GetAllDelayedTasks()
         {
-            throw new NotImplementedException();
+            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Deadline.Date! > DateTime.Now && x.Status != ToDoItemStatus.Done);
+            return toDoItems;
         }
 
-        public void GetAllToDoItems()
+        public List<ToDoItem> GetAllToDoItems()
         {
-            foreach (var item in ToDoItems)
-            {
-                Console.WriteLine($"{item.No} - {item.Title} - {item.Description} - {item.Deadline} - {item.Status} - {item.StatusChangedAt}");
-            }
+            return _toDoItems;
         }
 
         public List<ToDoItem> GetAllToDoItemsByStatus(ToDoItemStatus status)
         {
-            List<ToDoItem> toDoItems = ToDoItems.FindAll(x => x.Status == status);
+            List<ToDoItem> toDoItems = _toDoItems.FindAll(x => x.Status == status);
             return toDoItems;
         }
 

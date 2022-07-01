@@ -10,8 +10,8 @@ namespace MyClassLibrary.Interfaces
     {
         List<ToDoItem> ToDoItems { get; }
         void AddToDoItems(ToDoItem toDoItem);
-        void GetAllToDoItems();
-        void GetAllDelayedTasks();
+        List<ToDoItem> GetAllToDoItems();
+        List<ToDoItem> GetAllDelayedTasks();
         void ChangeToDoItemStatus(int no, ToDoItemStatus status);
         void EditToDoItem(int no, string title, string description, DateTime? deadline);
         void DeleteToDoItem(int no);
