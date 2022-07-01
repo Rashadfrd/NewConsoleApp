@@ -29,9 +29,19 @@ namespace MyClassLibrary.MyClasses
             _toDoItems.RemoveAt(index);
         }
 
-        public void EditToDoItem(int no, string title, string description, DateTime deadline)
+        public void EditToDoItem(int no, string title, string description, DateTime? deadline)
         {
-            throw new NotImplementedException();
+            int index = ToDoItems.FindIndex(x => x.No == no);
+
+            if (title!=null)
+                ToDoItems[index].Title = title;
+
+            if (description != null)
+                ToDoItems[index].Description = description;
+
+            if (deadline != null)
+                ToDoItems[index].Deadline = (DateTime)deadline;
+
         }
 
         public List<ToDoItem> FIlterToDoItems(ToDoItemStatus status, DateTime fromDate, DateTime toDate)

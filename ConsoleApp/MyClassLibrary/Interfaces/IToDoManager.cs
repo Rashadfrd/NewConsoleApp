@@ -13,7 +13,7 @@ namespace MyClassLibrary.Interfaces
         void GetAllToDoItems();
         void GetAllDelayedTasks();
         void ChangeToDoItemStatus(int no, ToDoItemStatus status);
-        void EditToDoItem(int no, string title, string description, DateTime deadline);
+        void EditToDoItem(int no, string title, string description, DateTime? deadline);
         void DeleteToDoItem(int no);
         List<ToDoItem> GetAllToDoItemsByStatus(ToDoItemStatus status);
         List<ToDoItem> SearchToDoItems(string input);
